@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-174227401-1"></script>
+        <script>document.getElementsByTagName("html")[0].className += " js";</script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() { dataLayer.push(arguments); }
+            gtag('js', new Date());
+    
+            gtag('config', 'UA-174227401-1');
+        </script>
+        <title>A1 | Doorworld</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js" integrity="sha512-k2GFCTbp9rQU412BStrcD/rlwv1PYec9SNrkbQlo6RZCf75l6KcC3UwDY8H5n5hl4v77IDtIPwOk9Dqjs/mMBQ==" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+        <link rel='stylesheet' href='https://unpkg.com/xzoom/dist/xzoom.css'>
+        <link rel="stylesheet" href="./style/product.css">
+        <link rel="stylesheet" href="./style/cart.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">    
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style/app.css">
+        <link rel="stylesheet" href="style/particle.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css" integrity="sha512-oc9+XSs1H243/FRN9Rw62Fn8EtxjEYWHXRvjS43YtueEewbS6ObfXcJNyohjHqVKFPoXXUxwc+q1K7Dee6vv9g==" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" integrity="sha512-ZKX+BvQihRJPA8CROKBhDNvoc2aDMOdAlcm7TUQY+35XYtrd3yh95QOOhsPDQY9QnKE0Wqag9y38OIgEvb88cA==" crossorigin="anonymous" /> 
+
+        <style>
+            #ABC {
+              background-color: #20B2AA;
+            }
+            </style>
+
+         <!-- scroll css -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+         <!-- favicons -->
+        <link rel="icon" href="./src/logo/favicon-32x32.png" sizes="32x32">
+        <link rel="icon" href="./src/logo/android-chrome-192x192.png" sizes="192x192">
+        <link rel="apple-touch-icon" href="./src/logo/apple-touch-icon.png">
+        <link rel="icon" href="./src/logo/favicon.ico" type="image/x-icon">
+
+        <!-- googlefonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+        <!-- font awsome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    </head>
+
+    <body>
+        <div class="se-pre-con">
+            <div class="prehol"></div>
+            <div class="gifload"></div>
+        </div>
+        <div class="top">
+            <div class="headder">
+                <div class="container">
+                    <div style="width: 100%">
+                        <i class="fa fa-phone" style="color: white" area-hidden="true"></i>
+                        <a style="margin-right: 10px;" href="tel:+91 90721 24125">+91 90721 24125</a>
+                        <i class="fa fa-envelope" style="color: white" area-hidden="true"></i>
+                        <a href="mailto:contact@doorworld.in">contact@doorworld.in</a>
+                       </div>
+                   </div>
+                   <a href="#thetop">
+                
+            </a>
+            <nav class="navbar navbar-light navbar-expand-md shad">
+                <div class="container" style="color: rgb(36, 36, 36);"><a href="./index.html"><img src="./src/logo/logo.png"
+                            class="logoo" style="width: 120px;" alt="" srcset=""> </a>
+                    <!-- <button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button> -->
+                    <button class="navbar-toggler third-button" style="border: none;" type="button" data-toggle="collapse"
+                        data-target="#navcol-1" aria-controls="navcol-1" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <div class="animated-icon3"><span></span><span></span><span></span></div>
+                    </button>
+    
+                    <div class="collapse navbar-collapse" id="navcol-1">
+                        <ul class="nav navbar-nav ml-auto">
+                            <li class="nav-item" role="presentation"><a class="nav-link " href="./index.html">HOME</a></li>
+                            <li class="nav-item" role="presentation"><a class="nav-link " href="./abs.html">ABS Doors</a></li>
+                            <li class="nav-item" role="presentation"><a class="nav-link " href="./steeldoors.html">Steel Doors</a></li>
+                            <li class="nav-item" role="presentation"><a class="nav-link " href="./upvc.html">uPVC</a></li>
+    
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Panel Doors
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" style="color: black;" href="./white.html">White Doors</a>
+                                    <a class="dropdown-item" style="color: black;" href="./membrane.html">Membrane Doors</a>
+                                    <a class="dropdown-item" style="color: black;" href="./glass.html">Glass Cutting Doors</a>
+                                    <a class="dropdown-item" style="color: black;" href="./teak.html">Teak Panel Doors</a>
+                                    <a class="dropdown-item" style="color: black;" href="./veneer.html">Veneer Doors</a>
+                                    <a class="dropdown-item" style="color: black;" href="./design.html">Designer Doors</a>
+                                </div>
+                            </li>
+                            <li class="nav-item" role="presentation"><a class="nav-link " href="./frp.html">FRP Doors</a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Windows & Frames
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" style="color: black;" href="./metalwindows.html">Metal Windows</a>
+                                    <a class="dropdown-item" style="color: black;" href="./metalframes.html">Metal Frames</a>
+                                    <a class="dropdown-item" style="color: black;" href="./wpcframes.html">WPC Frames</a>
+                                </div>
+                            </li>
+                            <li class="nav-item" role="presentation"><a class="nav-link" href="./contact.html">CONTACT</a>
+                            </li>
+                            <li class="nav-item" role="presentation"><a class="nav-link" href="./account.html">Account</a>
+                            </li>
+                    
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    
+        </div>
+
+        <!--Single products-->
+
+        <section>
+            <div class="products">
+                <div class="container_pro">
+                    <section id="default" class="padding-top0">
+                        <div class="row">
+                            <div class="large-5 column">
+                                <div class="xzoom-container">
+                                  <img class="xzoom" id="xzoom-default" src="./src/steel/a1.jpg" xoriginal="./src/steel/a1.jpg" height="380px" width="250px" />
+                                  <div class="xzoom-thumbs">
+                                    <a href="./src/steel/a1.jpg"><img class="xzoom-gallery" width="80" src="./src/steel/a1.jpg"  xpreview="./src/steel/a1.jpg" title=""></a>
+                                 </div>
+                                </div>        
+                              </div>
+                              <div class="col-md-7">
+                                <div class="p_details">
+                                  <h4 class="prmrycpl">A1STEEL</h4>
+                                    <strong>Select Model</strong>
+                                    <div class="p-content"><p class="rs" style="text-align: left;">Rs. 0.00</p>
+                                        <p style="text-align: left;">Dimensions&nbsp;&nbsp;
+                                        <select>
+                                            <option>205 x 120 x 70</option>
+                                            <option>205 x 110 x 70</option>
+                                            <option>205 x 100 x 70</option>
+                                            <option>205 x 90 x 70</option>
+                                            <option>205 x 90 x 50</option>
+                                        </select></p>
+                                        <p style="text-align: left;">Colour&nbsp;&nbsp;
+                                            <select>
+                                                <option>205 x 120 x 70</option>
+                                                <option>205 x 110 x 70</option>
+                                                <option>205 x 100 x 70</option>
+                                                <option>205 x 90 x 70</option>
+                                                <option>205 x 90 x 50</option>
+                                            </select></p>
+                                          </div>
+                                    
+                                    <a class="cd-add-to-cart js-cd-add-to-cart" data-price="0.00" data-toggle="" style="text-decoration: none;" data-target="" href="#0">Add To Cart &#8594;</a>
+                                  
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                         </div>
+
+                         <div class="cd-cart cd-cart--empty js-cd-cart">
+                          <a href="#0" class="cd-cart__trigger text-replace">
+                            
+                            <ul class="cd-cart__count"> <!-- cart items count -->
+                              <li>0</li>
+                              <li>0</li>
+                            </ul> <!-- .cd-cart__count -->
+                          </a>
+
+                          <div class="cd-cart__content">
+                            <div class="cd-cart__layout">
+                              <header class="cd-cart__header">
+                                <h2></h2>
+                                <span class="cd-cart__undo">Item removed. <a href="#0">Undo</a></span>
+                              </header>
+                              
+                              <div class="cd-cart__body">
+                                <ul>
+                                  <!-- products added to the cart will be inserted here using JavaScript -->
+                                </ul>
+                              </div>
+
+                              <footer class="cd-cart__footer">
+                                <a href="#0" class="cd-cart__checkout">
+                                  <em>Checkout - $<span>0</span>
+                                    <svg class="icon icon--sm" viewBox="0 0 24 24"><g fill="none" stroke="currentColor"><line stroke-width="2" stroke-linecap="round" stroke-linejoin="round" x1="3" y1="12" x2="21" y2="12"/><polyline stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="15,6 21,12 15,18 "/></g>
+                                    </svg>
+                                  </em>
+                                </a>
+                              </footer>
+                            </div>
+                          </div> <!-- .cd-cart__content -->
+                        </div> <!-- cd-cart -->
+                        <script src="./js/util.js"></script> <!-- util functions included in the CodyHouse framework -->
+                        <script src="./js/main.js"></script> 
+                        </body>
+                        </html>
+
+                            <div class="row products">
+                             <div class="col-md-3" id="result">
+                                <div href="" class="pr_cvr">
+                                  <div class="prHead">
+                                <strong>ABSL111 </strong>
+                                    </div>
+                                  <div class="door_img">
+                                    <img src="./src/steel/a2.jpg" alt="">
+                                    <a class="zoomi" href="./src/steel/a2.jpg"><i class="fa fa-search" aria-hidden="true"></i></a>
+                                  </div>
+                                  <div class="door_content">
+                                    <a href="./a2.html" class="btn_more">View Details</a>
+                                  </div>
+                                </div>
+                                </div>
+                                      
+                                <div class="col-md-3" id="result">
+                                <div href="" class="pr_cvr">
+                                  <div class="prHead">
+                                <strong>ABSL110 </strong>
+                                  </div>
+                                  <div class="door_img">
+                                    <img src="./src/steel/a3.jpg" alt="">
+                                    <a class="zoomi" href="./src/steel/a3.jpg"><i class="fa fa-search" aria-hidden="true"></i></a>
+                                  </div>
+                                  <div class="door_content">
+                                    <a href="./a3.html" class="btn_more">View Details</a>
+                                  </div>
+                                </div>
+                                </div>
+                                      
+                                
+                                <div class="col-md-3" id="result">
+                                <div href="" class="pr_cvr">
+                                  <div class="prHead">
+                                <strong>ABSL109 </strong>
+                                  </div>
+                                  <div class="door_img">
+                                    <img src="./src/steel/a4.jpg" alt="">
+                                    <a class="zoomi" href="./src/steel/a4.jpg"><i class="fa fa-search" aria-hidden="true"></i></a>
+                                  </div>
+                                  <div class="door_content">
+                                    <a href="./a4.html" class="btn_more">View Details</a>
+                                  </div>
+                                </div>
+                                </div>
+
+                                
+                                <div class="col-md-3" id="result">
+                                <div href="" class="pr_cvr">
+                                  <div class="prHead">
+                                <strong>ABSL108 </strong>
+                                  </div>
+                                  <div class="door_img">
+                                    <img src="./src/steel/a5.jpg" alt="">
+                                    <a class="zoomi" href="./src/steel/a5.jpg"><i class="fa fa-search" aria-hidden="true"></i></a>
+                                  </div>
+                                  <div class="door_content">
+                                    
+                                    <a href="./a5.html" class="btn_more">View Details</a>
+                                    
+                                  </div>
+                                </div>
+                                </div>
+                                  <a class="btn_view" style="text-decoration: none;" data-toggle="" data-target="" href="./steeldoors.html">View More &#8594;</a>
+                             </div>
+                                </div>
+                                </section>
+                                
+                            
+                            </div>
+                            </div>
+
+                    <div class="large-7 column"></div>
+                  </div>
+                </section>
+            </div>
+            <script src='https://code.jquery.com/jquery-2.1.1.js'></script>
+            <script src='https://unpkg.com/xzoom/dist/xzoom.min.js'></script>
+            <script src='https://hammerjs.github.io/dist/hammer.min.js'></script>
+            <script src='https://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.1/js/foundation.min.js'></script>
+            <script  src="./js/product.js"></script>
+
+            <section id="ABC">
+                <div class="container-fluid px-3 px-sm-5 my-5 text-center">
+                   <div data-aos="fade-down" class="about">
+                       <h4>Have a project in my mind?</h4>
+                       <h3>We are here to help.</h3>
+                   </div>
+                   <div data-aos="fade-up" style="text-align: center;">
+                       <a href="./contact.html">
+                           <div class="gotolink2">
+                               Contact us
+                           </div>
+                       </a>
+                   </div>
+               </div>
+               <br>
+           </section>
+           <div class="container-fluid">
+               <div class="row">
+                   <div class="col-md-6 p-0">
+                       <div class="addres" style="background-color: white">
+                           <img src="./src/logo/logo-transparent.png" width="50%" alt="">
+                           <br>
+                           <span style="color:black">ADDRESS</span>
+                           <p style="color:black">Jubilee Junction, Calicut Road<br>
+                               Perinthalmanna, Malappuram<br>
+                               Pin code - 679322
+                           </p>
+       
+                           <span style="color:blacl">GET IN TOUCH</span><br>
+                           <i class="fa fa-phone" style="color:black"></i>
+                           <a href="tel:+91 90721 24125">+91 90721 24125</a><br>
+                           <i class="fa fa-phone" style="color:black"></i>
+                           <a href="tel:04933 220030">04933 220030</a>
+                           <br><br><br>
+                           <span style="color:black">WRITE TO US</span><br>
+                           <i class="fa fa-envelope" style="color:black"></i>
+                           <a href="mailto:contact@doorworld.in">contact@doorworld.in</a>
+                       </div>
+                   </div>
+                   <div class="col-md-6 col-sm-12 p-0">
+                               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.8479672962576!2d76.2132612140705!3d10.974845892187076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba7cc572d32ae85%3A0x327148d74f453ce6!2sSteel%20Doors%20Cuirass%20-%20Door%20World!5e0!3m2!1sen!2sin!4v1610228598645!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+       
+                   </div>
+               </div>
+       </div>
+               <div class="foooter" style="background-color: #00CED1 ">
+                   © Door world 2021 | Designed by <a href="https://www.linkedin.com/in/jamsheena-nazar-619351178/" style="color: black">Jamsheena Nazar</a>
+               </div>
+           </div>
+            <!-- particle -->
+           <!-- <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>  -->
+       
+           <script src="./js/particleJs.js"></script>
+           <script src="./js/Partstat.js"></script>
+           <!-- <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> -->
+           <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+       
+       
+           <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+       
+           <!-- <script src="js/jquery.min.js"></script> -->
+       
+           <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+       
+           <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script> -->
+           <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+           <script src="bootstrap/js/bootstrap.min.js"></script>
+       
+       
+       
+           <!-- loader -->
+           <script>
+               $(window).load(function () {
+                   // Animate loader off screen
+                   $(".se-pre-con").fadeOut("slow");
+               });
+           </script>
+           <!-- plus button -->
+           <script>
+               $('#card1').on('click', function () {
+                   if ($('#bba').hasClass("showw")) {
+                       $('#bba').addClass("hide");
+                       $('#bba').removeClass("showw");
+                   }
+                   else {
+                       $('#bba').addClass("showw");
+                       $('#bba').removeClass("hide");
+                   }
+                   if ($('#bbc').hasClass("hide")) {
+       
+                       $('#bbc').addClass("showw");
+                       $('#bbc').removeClass("hide");
+                   }
+                   else {
+                       $('#bbc').addClass("hide");
+                       $('#bbc').removeClass("show");
+                   }
+       
+               });
+       
+               $('#card2').on('click', function () {
+       
+                   if ($('#abc').hasClass("showw")) {
+                       $('#abc').addClass("hide");
+                       $('#abc').removeClass("showw");
+                   }
+                   else {
+                       $('#abc').addClass("showw");
+                       $('#abc').removeClass("hide");
+                   }
+                   if ($('#bca').hasClass("hide")) {
+       
+                       $('#bca').addClass("showw");
+                       $('#bca').removeClass("hide");
+                   }
+                   else {
+                       $('#bca').addClass("hide");
+                       $('#bca').removeClass("show");
+                   }
+       
+               });
+       
+       // Wrap every letter in a span
+       var textWrapper = document.querySelector('.ml3');
+       textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+       
+       anime.timeline({loop: true})
+         .add({
+           targets: '.ml3 .letter',
+           opacity: [0,1],
+           easing: "easeInOutQuad",
+           duration: 2250,
+           delay: (el, i) => 150 * (i+1)
+         }).add({
+           targets: '.ml3',
+           opacity: 0,
+           duration: 1000,
+           easing: "easeOutExpo",
+           delay: 1000
+         });
+       
+       
+           </script>
+           <!-- animate -->
+       
+           <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+           <script>
+               AOS.init({
+                   duration: 1200,
+               });
+           </script>
+       
+           <!-- carousel -->
+       
+           <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+               rel="stylesheet" />
+           <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+               rel="stylesheet" />
+           <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+           <script type='text/javascript' src='https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js'></script>
+           <script src="js/app.js"></script>
+       
+       
+       
+       </body>
+       
+       </html>
+       
+        <script src="https://www.aeriusdoors.com/wp-content/themes/Theme_aeriusdoors/js/jquery.isotope.min.js"></script>
+       
+         <script type="text/javascript">
+         $(window).load(function(){
+           var $container = $('.portfolioContainer');
+           $container.isotope({
+             filter: '*',
+             animationOptions: {
+               duration: 750,
+               easing: 'linear',
+               queue: false
+             }
+           });
+       
+           $('.portfolioFilter a').click(function(){
+             $('.portfolioFilter .current').removeClass('current');
+             $(this).addClass('current');
+       
+             var selector = $(this).attr('data-filter');
+             $container.isotope({
+               filter: selector,
+               animationOptions: {
+                 duration: 750,
+                 easing: 'linear',
+                 queue: false
+               }
+             });
+             return false;
+           });
+         });
+       </script>
+       
+       <script type="text/javascript">
+       
+       jQuery(document).on('submit','#search',function(e){
+         e.preventDefault();
+       
+         var formData = $(this).serialize();
+         //$('#subbtn').prop('disabled',true);
+         var formData = new FormData(this);
+         jQuery.ajax({
+             url: 'https://www.aeriusdoors.com/wp-admin/admin-ajax.php',
+             type: 'post',
+             data: {
+               action: 'data_fetch',
+               keyword: jQuery('#keyword').val(),
+               category:jQuery('#category').val(),
+               category_id:jQuery('#category_id').val()
+       
+                },
+             success: function(data) {
+                 jQuery('#serachresult').html( data );
+                 var $container = $('.portfolioContainer');
+                 $container.isotope({
+                   filter: '*',
+                   animationOptions: {
+                     duration: 750,
+                     easing: 'linear',
+                     queue: false
+                   }
+                 });
+       
+                 $('.portfolioFilter a').click(function(){
+                   $('.portfolioFilter .current').removeClass('current');
+                   $(this).addClass('current');
+       
+                   var selector = $(this).attr('data-filter');
+                   $container.isotope({
+                     filter: selector,
+                     animationOptions: {
+                       duration: 750,
+                       easing: 'linear',
+                       queue: false
+                     }
+                   });
+                   return false;
+                 });
+             }
+         });
+       
+       
+       })
+       
+       </script>
+       
+            
+            </body>
+            </html>
+                
+
+                
+
+
+
+        <!---->
